@@ -1,3 +1,4 @@
+package Taller_1_POO;
 public class Libro {
 
     public String titulo;
@@ -17,36 +18,10 @@ public class Libro {
 
     }
 
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
-
-    public int getNumeroPaginas() {
-        return numeroPaginas;
-    }
-
-    public void setNumeroPaginas(int numeroPaginas) {
-        this.numeroPaginas = numeroPaginas;
-    }
-
     @Override
     public String toString() {
-        return "Libro: " + titulo + ", Autor: " + autor + ", Páginas: " + numeroPaginas;
+        return "Libro: " + titulo + ", Autor: " + autor + ", Paginas: " + numeroPaginas;
     }
-
-    
 
     public void mostrarDetalles() {
         System.out.println("Título: " + titulo);

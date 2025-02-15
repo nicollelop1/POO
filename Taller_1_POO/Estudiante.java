@@ -1,3 +1,4 @@
+package Taller_1_POO;
 public class Estudiante {
 
     public String nombre;
@@ -27,35 +28,10 @@ public class Estudiante {
         this.edad = edad;
 
     }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    public String getCurso() {
-        return curso;
-    }
-
-    public void setCurso(String curso) {
-        this.curso = curso;
-    }
-
     
     @Override
     public String toString() {
-        return "Nosmbre estudiante: " + nombre + ", edad: " + edad + ", curso: " + curso;
+        return "Nombre estudiante: " + nombre + ", edad: " + edad + ", curso: " + curso;
     }
 
     public void mostrarDetalles() {

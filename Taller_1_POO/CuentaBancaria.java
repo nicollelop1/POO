@@ -1,3 +1,4 @@
+package Taller_1_POO;
 public class CuentaBancaria {
 
     public String numeroCuenta;
@@ -7,7 +8,7 @@ public class CuentaBancaria {
     public CuentaBancaria() {
        saldo = 2000;
        numeroCuenta = "1234";
-       tipoCuenta = "desconocida";
+       tipoCuenta = "Ahorro";
 
     }
 
@@ -23,30 +24,7 @@ public class CuentaBancaria {
         this.saldo = saldo;
 
     }
-    public String getNumeroCuenta() {
-        return numeroCuenta;
-    }
-
-    public void setNumeroCuenta(String numeroCuenta) {
-        this.numeroCuenta = numeroCuenta;
-    }
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-    public String getTipoCuenta() {
-        return tipoCuenta;
-    }
-
-    public void setTipoCuenta(String tipoCuenta) {
-        this.tipoCuenta = tipoCuenta;
-    }
-
+  
     @Override
     public String toString() {
         return "numero Cuenta: " + numeroCuenta + ", saldo: " + saldo + ", tipo: " + tipoCuenta;
