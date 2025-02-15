@@ -30,11 +30,4 @@ public class CuentaBancaria {
         return "numero Cuenta: " + numeroCuenta + ", saldo: " + saldo + ", tipo: " + tipoCuenta;
     }
 
-    public void mostrarDetalles() {
-        System.out.println("Tipo cuenta : " + tipoCuenta);
-        System.out.println("numero cuenta: " + numeroCuenta);
-        System.out.println("saldo : " + saldo);
-
-    }
-
 }

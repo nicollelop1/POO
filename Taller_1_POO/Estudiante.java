@@ -34,11 +34,4 @@ public class Estudiante {
         return "Nombre estudiante: " + nombre + ", edad: " + edad + ", curso: " + curso;
     }
 
-    public void mostrarDetalles() {
-        System.out.println("nombre: " + nombre);
-        System.out.println("edad: " + edad);
-        System.out.println("curso: " + curso);
-
-    }
-
 }

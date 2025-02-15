@@ -1,0 +1,21 @@
+package Taller_2_POO;
+
+public class Producto {
+
+    public String nombre;
+    public double precio;
+
+    public Producto(String nombre, double precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+
+    }
+
+    public void mostrarProducto() {
+       System.out.println("El nombre del producto es " + nombre + " y su precio es " + precio);
+
+    }
+
+
+    
+}
