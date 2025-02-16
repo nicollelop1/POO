@@ -1,14 +1,14 @@
 package Taller_1_POO;
 public class CuentaBancaria {
 
-    public String numeroCuenta;
-    public double saldo;
-    public String tipoCuenta;
+    private String numeroCuenta;
+    private double saldo;
+    private String tipoCuenta;
 
     public CuentaBancaria() {
-       saldo = 2000;
-       numeroCuenta = "1234";
-       tipoCuenta = "Ahorro";
+       saldo = 0.0;
+       numeroCuenta = "Desconocido";
+       tipoCuenta = "Desconocido";
 
     }
 

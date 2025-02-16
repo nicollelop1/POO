@@ -1,14 +1,14 @@
 package Taller_1_POO;
 public class Libro {
 
-    public String titulo;
-    public String autor;
-    public int numeroPaginas;
+    private String titulo;
+    private String autor;
+    private int numeroPaginas;
 
     public Libro() {
-        titulo = "La luna";
-        autor = "Marco Rivera";
-        numeroPaginas = 50;
+        titulo = "Desconocido";
+        autor = "Desconocido";
+        numeroPaginas = 0;
     }
 
     public Libro(String titulo, String autor, int numeroPaginas) {

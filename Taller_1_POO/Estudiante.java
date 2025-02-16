@@ -1,14 +1,14 @@
 package Taller_1_POO;
 public class Estudiante {
 
-    public String nombre;
-    public int edad;
-    public String curso;
+    private String nombre;
+    private int edad;
+    private String curso;
 
     public Estudiante() {
-        nombre = "lucas";
-        edad = 12;
-        curso = "A1";
+        nombre = "Desconocido";
+        edad = 0;
+        curso = "Desconocido";
     }
 
     public Estudiante(String curso) {

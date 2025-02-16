@@ -43,6 +43,8 @@ public class ProyectoIntegrado {
         System.out.println(cuenta);
         System.out.println("DATOS ESTUDIANTE");
         System.out.println(estudiante);
+        
+        scanner.close();
 
         
     }

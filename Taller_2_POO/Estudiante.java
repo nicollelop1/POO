@@ -2,8 +2,8 @@ package Taller_2_POO;
 
 public class Estudiante {
 
-    public String nombre;
-    public int edad;
+    private String nombre;
+    private int edad;
 
     public Estudiante() {
         this("desconocido", 0);
