@@ -1,6 +1,10 @@
 package Taller_1_POO;
 import java.util.*;
 
+import Taller_1_POO.Ejercicio1.Libro;
+import Taller_1_POO.Ejercicio2.CuentaBancaria;
+import Taller_1_POO.Ejercicio3.Estudiante;
+
 public class ProyectoIntegrado {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
